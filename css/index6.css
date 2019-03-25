@@ -1,0 +1,37 @@
+body{
+    background-color: #fff;
+}
+.logo-top{
+    width: 100%;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+.dl-box{
+    padding: 0 1rem;
+}
+.dl-box input{
+    width: 96%;
+    border: 1px solid #ddd;
+    padding: 1.2rem 0 1.2rem 1rem;
+    margin-bottom: 1rem;
+    margin-right: -1rem;
+    border-radius: 0.2rem;
+    color: #ddd;
+}
+.dl-xy{
+    color: #666;
+    font-size: 1.15rem;
+}
+.dl-xy span{
+    color: #1b9dff;
+}
+.dl-box button{
+    border: none;
+    border-radius: 0.2rem;
+    width: 100%;
+    padding: 1rem 0;
+    /* fpnt-s */
+    background-color: #4cd96f;
+    color: #fff;
+}

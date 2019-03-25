@@ -1,0 +1,240 @@
+.head{
+    /* width: 77.142857rem;
+    height: 5rem; */
+    background-image: linear-gradient(90deg,#0af,#0085ff);
+    color: #fff;
+}
+.hed-top{
+    padding: 1.7rem 1.5rem 0 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.hed-bot{
+    padding: 0.8rem 1.4rem 0.6rem 1rem;
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(90deg,#0af,#0085ff);    
+    z-index: 999;
+}
+.hed-bot input{
+    width: 100%;
+    height: 2.4rem;
+}
+.main-item{
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+.item{
+    display: block;
+    width: 3.5rem;
+    height: auto;
+    text-align: center;
+}
+.it-img{
+    height: auto;
+}
+.it-img,.it-img img{
+    width: 3.5rem;
+    padding-bottom: 0.1rem;
+}
+.nr-box{
+    padding: 0 0.8rem;
+}
+.main{
+    position: relative;
+    padding-bottom: 1.5rem;
+}
+.main-btbox{
+    position: absolute;
+    bottom: 0;
+    height: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main-Lbtn,.main-Rbtn{
+    margin-top: 0.4rem;
+    width: 2.6%;
+    height: 0.14rem;
+    background-color: #ddd;
+}
+.main-Lbtn{
+    margin-right: 0.5rem;
+}
+.pz-tc{
+    padding: 0.8rem 0 0 1rem;
+    margin-top: 0.1rem;
+    width: cale(100% - 1rem);
+    width: -webkit-calc(100% - 1rem);
+    height:8rem;
+    background-image:linear-gradient(0deg,#f4f4f4 5%,#fafafa 95%);
+    position: relative;
+}
+.pz-tc img{
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    width: 11.5rem;
+}
+.pz-tc p:nth-child(2){
+    color: #666;
+    padding: 0.3rem 0;
+}
+.pz-tc p:nth-child(3){
+    color: #af8260;
+    font-weight: 600;
+    font-size: 0.5rem;
+}
+.hy-box{
+    width: 100%;
+    margin-top: 0.25rem;
+}
+.hy-nr{
+    height: 3rem;
+    line-height: 3rem;
+    background-image: linear-gradient(90deg,#ffefc4,#f3dda0);
+}
+.hy-nr img{
+    margin-left: 1rem;
+    width: 1.2rem;
+    vertical-align:middle;
+}
+.hy-nr span{
+    vertical-align:middle;
+    color: #644f1b;
+}
+.hy-nr span:nth-child(2){
+    font-weight: bold;
+}
+.hy-nr span:nth-child(3){
+    font-size: 0.5rem;
+}
+.hy-nr span:nth-child(4){
+    font-size: 0.5rem;
+    margin-left: 3rem;
+}
+.lb-box{
+    margin-top: 0.25rem;
+}
+.lb-nr{
+    width: 100%;
+    height: 7.7rem;
+    overflow: hidden;
+    position: relative;
+}
+.lb-nr ul li img{
+    width: 100%;
+}
+.lb-ul{
+    width: 500%;
+    display: flex;
+    list-style: none;
+    position: absolute;
+    /* left: 0; */
+    /* right: 0; */
+}
+.lb-ul li{
+    width: 100%;
+}
+.tj-box{
+    display: flex;
+    justify-content: center;
+}
+.tj-x{
+    margin-top: 1.5rem;
+    width: 6%;
+    height: 0.15rem;
+    background-color: #ddd;
+}
+.tj-txt{
+    padding: 0.9rem 1rem; 
+    font-size: 1.1rem;
+}
+.zh-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* height: ; */
+}
+.zh-box a{
+    display: block;
+    font-size: 1rem;
+    height: 3rem;
+    line-height: 2.8rem;
+}
+.wm-item{
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem 1rem 1rem 0.5rem;
+    border-bottom: 1px solid #ddd;
+}
+.wm-igbox img{
+    width: 100%;
+}
+.wm-igbox{
+    width: 20%;
+}
+.ft-pp{
+    display: inline-block;
+    width: 2rem;
+    background-image: linear-gradient(-139deg,#fff100,#ffe339);
+    color: #6f3f15;
+    font-weight: 600;
+    padding: 0 0.2rem;
+}
+.wm-txt .ft-bt{
+    font-weight: 600;
+    color: #333;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+.wm-txt{
+    width: 100%;
+    padding-left: 1rem;
+    color: #666;
+}
+.wm-txt p{
+    height: 2rem;
+    line-height: 2rem;
+}
+.fa-star{
+    color: #ffe339;
+}
+.ft-dz{
+    padding: 0 0.5rem;
+}
+.ft-zs{
+    background-color: #0af;
+    color: #fff;
+    font-size: 0.5rem;
+    text-align: right;
+}
+.ft-qs{
+    padding: 0.4rem;
+}
+.mlt{
+    border: 1px solid #ccc;
+}
+.kb-img{
+    width: 1rem;
+    margin-left: 1rem;
+}
+.wm-txt .ft-zt{
+    color: orangered;
+}
+.wm-txt .ft-j,.ft-z{
+    background-color: rgb(240, 115, 115);
+    color: #fff;
+    font-weight: bold;
+    padding: 0 0.2rem;
+    margin-right: 0.5rem;
+    border-radius: 15%;
+}
+.jian-p{
+    padding-top: 1rem;
+}
+.p-box{
+    display: flex;
+    justify-content: space-between
+}
